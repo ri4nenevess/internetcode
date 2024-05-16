@@ -6,9 +6,7 @@
     <title>Document</title>
     <style>
 #topBox{
-/* width: 250px;
-height: 250px; */
-border: 10px solid plum;
+border: 10px solid white;
 display: flex;
 flex-direction: column;
 justify-content: center; 
@@ -17,13 +15,14 @@ align-items: center;
 #BottomBox{
 width: 250px;
 height: 250px;
-background: lavender;
+background: #fcbacb;
+border-radius: 10px;
 }
 .Circle{
 width: 150px;
 height: 150px;
 border-radius: 50%;
-background-color:powderblue;
+background-color: palevioletred;
 }
 .Alinhar{
 display: flex;
@@ -32,35 +31,47 @@ justify-content: center;
 align-items: center;
 }
 .bnt-style{ 
-width: 100px;
-height: 30px;
+width: 90px;
+height: 25px;
 background-color:palevioletred;
 display: flex;
 align-items: center;
 justify-content: center;
-border-radius: 25%;
-color: rgb(14, 13, 14);
+border-radius: 10px;
+color: black;
+margin-right: 5px;
+}
+.container{
+display: flex;
+justify-content: space-between;
+}
+.link {
+display: contents;
+margin-top: 20px;
+text-decoration: none;
+color: black;
 }
     </style>
 </head>
 <body>
     <div id="topBox">
 <div class="Circle"></div>
-<div>
+<div class="Alinhar">
     <h1>Riane Neves</h1>
     <p>Student, Brazilian, Teen</p>
-    <div class="bnt-style"> <p>Botão 1</p>
+    <div class="container">
+    <div class="bnt-style"><a href="https://www.instagram.com/rianenevess?igsh=dzF2eWYyd2VqZ204" class="link">instagram</a></div>
+    <div class="bnt-style"><a href="https://vsco.co/nevesriri/gallery" class="link">vsco</a></div>
     </div>
-    <div class="bnt-style"> <p>Botão 2</p>
-    </div>
+    
 </div>
-<div></div>
+</div>
 </div>
     <div id="BottomBox">
 <div></div>
 <div></div>
 <div></div>
-    </div>
+    </div>    
 
 </body>
 </html>
