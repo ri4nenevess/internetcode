@@ -10,20 +10,28 @@
         margin: 0 auto;
         border: 2px solid #ccc;
         padding: 20px;
+        border-radius: 10px;
     }
-    
     .box {
         background-color: #f0f0f0;
         border: 1px solid #999;
         padding: 10px;
         margin-bottom: 10px;
     }
-    .Alinhar{
+    .Alinhar {
         display: flex;
         flex-direction: column;
         justify-content: center; 
         align-items: center;
     }
+    
+    .input-style {
+        background-color: #f4f4f4; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        font: Arial, sans-serif; 
+    }
+
     </style>
 </head>
 <body>
@@ -31,19 +39,19 @@
          <div class="container">
          <div class="Alinhar">
         <label for="nome">name</label>
-            <input id="nome" type="text" placeholder="name" />
+            <input class="input-style" id="nome" type="text" placeholder="name" />
         <label for="email">email</label>
-            <input id="email" type="email" placeholder="email" />
+            <input class="input-style" id="email" type="email" placeholder="email" />
         <label for="senha">password</label>
-            <input id="senha" type="password" placeholder="password" />
-        <label for="data">date</label>
-            <input id="data" type="date" placeholder="date" />
+            <input class="input-style" id="senha" type="password" placeholder="password" />
+        <label for="data">birth date</label>
+            <input class="input-style" id="data" type="date" placeholder="date" />
         <label for="cor">color</label>
-            <input id="cor" type="color" placeholder="color" />
+            <input class="input-style" id="cor" type="color" placeholder="color" />
         <label for="hora">time</label>
-            <input id="hora" type="time" placeholder="time" />
+            <input class="input-style" id="hora" type="time" placeholder="time" />
         <label for="type1"></label>  
-            <textarea id="type1" placeholder="type here"></textarea>
+            <textarea class="input-style" id="type1" placeholder="type here"></textarea>
         <button>send</button>
         </div>
         </div>
